@@ -27,6 +27,9 @@ function Navbar() {
         <li className="l__link">
           <HashLink to="/#menu">Menu</HashLink>
         </li>
+        <li className="l__link">
+          <HashLink to="/#gallery">Photos📷</HashLink>
+        </li>
         {/* <li className="l__link">
           <Link to="/awards">Awards</Link>
         </li>
@@ -61,6 +64,9 @@ function Navbar() {
               </li>
               <li className="l__link">
               <HashLink to="/#menu"  onClick={closeMenu}>Menu</HashLink>
+              </li>
+              <li className="l__link">
+              <HashLink to="/#gallery"  onClick={closeMenu}>Photos</HashLink>
               </li>
               {/* <li className="l__link">
                 <Link to="/awards"  onClick={closeMenu}>Awards</Link>

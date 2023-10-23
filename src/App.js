@@ -22,7 +22,9 @@ const Home = () => (
     <div id="menu">
       <Categories />
     </div>
-    <Gallery />
+    <div id="gallery">
+      <Gallery />
+    </div>
     <Routes>
       <Route path="/" element={<></>} />
     </Routes>
