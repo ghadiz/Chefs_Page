@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import "./App.css";
 import Categories from "./components/Categories";
 import Gallery from "./components/Gallery";
-import ImageSlider from "./components/ImageSlider";
+
 import Chef from "./components/Chef";
 import BreakfastList from "./components/BreakfastList";
 import { Route, Routes } from "react-router-dom";
