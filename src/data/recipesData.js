@@ -139,4 +139,155 @@ const recipes = [
     imageUrl: "croissant",
   },
 ];
-export default recipes;
+
+export const sweetsRecipes = [
+  {
+    id: 1,
+    name: "Lotus Chocolate Truffles",
+    description: "A Taste of Pure Luxury.",
+    ingredients: [
+      "200 g lotus biscoff",
+      "70g cream cheese",
+      "1/4 cup whipping cream",
+      "200 g milk chocolate",
+    ],
+    instructions: [
+      " In a bowl crush the lotus biscuits. Add in cream cheese and whipping cream.",
+      "Mix until a dough forms then refrigerate for at least 1 hour.",
+      "After an hour, form some medium sized balls with the lotus batter. Melt the chocolate and dip the truffles. Make sure to cover all the sides.",
+      "Refrigerate the truffles for 1 hour. Top it with some crushed lotus biscoff. Enjoy🤍",
+    ],
+    imageUrl:"lotus"
+    
+  },
+  {
+    id: 2,
+    name: "Coconute Muhallabiye",
+    description:
+      "Indulge in the Delicate Flavors of Coconut Muhallabiye Infused with Orange Blossom and Rose Water.",
+    ingredients: [
+      "500 grams milk",
+      "40 g cornstarch",
+      "80 g sugar",
+      "1 g mastic powder",
+      "2 teaspoons rose water",
+      "1 teaspoon orange blossom water",
+      "80 g shredded coconut",
+      "Shredded coconut and rose jam for decoration",
+    ],
+    instructions: [
+      "In a cooking pot, add in milk and cornstarch. Mix (cold) then transfer to a low heat. When the milk is hot, add in sugar and mastic powder.",
+      "Keep on stirring until the mixture thickens a little. Off the heat, add in rose and orange blossom water. Finish it off with coconut shreds",
+      "Pour the Muhallabiye into cups and let it cool down at room temperature. Transfer to the fridge for at least 2 hours.",
+      "When cold, top it off with shredded coconut and rose jam. Enjoy 🤍",
+    ],
+    imageUrl:"coco",
+  },
+  {
+    id: 3,
+    name: "Date Sticks",
+    description: "Sticks with the Delicious Essence of Maamoul.",
+    ingredients: [
+      "3 cups flour",
+      "1/2 cup cornstarch",
+      "200 g butter (room temperature)",
+      "2 eggs (room temperature)",
+      "1/2 cup powdered sugar",
+      "1 teaspoon baking powder",
+      "2 tablespoons powdered milk",
+      "Filling: 300g date paste, 2 tablespoons room temp butter",
+    ],
+    instructions: [
+      "Mix the butter and sugar until the sugar starts to dissolve. Add in eggs and sifted flour , baking powder, cornstarch.",
+      "Add in powdered milk. Mix until smooth and let it rest for 30 mins.",
+      "Meanwhile, mix the date paste with the butter until smooth.",
+      "Form small balls with the dough (around a tablespoon). Roll out the dough piece and add in around 1/2 tablespoon of the date filling) . Form into fingers",
+      "Bake at a preheated 170° oven for 15/20 mins. Sprinkle some sugar and pistachios on top. Bon appétit 🤍",
+    ],
+    imageUrl:"date"
+  },
+  {
+    id: 4,
+    name: "Chocolate Fudge Cake",
+    description: " A Decadent Delight for Chocolate Lovers.",
+    ingredients: [
+      "2 eggs",
+      "250 grams dark chocolate",
+      "100 grams butter",
+      "150 grams flour",
+      "1 teaspoon baking powder",
+      "3 tablespoons cocoa powder",
+      "1 teaspoon vanilla",
+      "1 teaspoon instant coffee",
+      "250 grams sugar",
+      "60 ml oil",
+      "250 grams boiling water",
+    ],
+    instructions: [
+      "In a glass bowl over a bain marie ( hot pot filled with boiling water) add in butter and dark chocolate until melted.",
+      "In a separate bowl sift flour, cocoa powder and baking powder.",
+      "Add to the chocolate/butter mix the vanilla extract, instant coffee, eggs and sugar.",
+      "Fold in the dry ingredients and add the boiling water.",
+      "Bake at a preheated 180° oven for 35 mins. Bon appétit 🤍",
+    ],
+    imageUrl:"fudge"
+  },
+  {
+    id: 5,
+    name: "Apple Pie",
+    description: "A Taste of Tradition and Warmth.",
+    ingredients: [
+      "250g flour",
+      "188g softed butter",
+      "50g milk",
+      "1 egg",
+      "15g sugar",
+      "500g milk",
+      "100g sugar",
+      "4 egg yolks",
+      "40g cornstarch",
+      "40g butter",
+      "4g vanilla",
+      "4 apples cut into thin really thin slices",
+      "powdered sugar",
+    ],
+    instructions: [
+      " In a stand mixer , mix together butter and flour. Add in egg , sugar , salt and milk. Mix well until a dough is formed then put it in the fridge.",
+      "In a pot over medium heat , add milk and vanilla until little simmer.",
+      "In a bowl add in egg yolks , sugar and maizena . Whisk until the eggs are white.",
+      "Add in 1/3 of you heated milk to the eggs and whisk . Then add the rest of the milk and put it back into the pot . Put over heat and keep on mixing until it thickens ,add butter .Cover and put it in the fridge.",
+      "Roll your tart dough and place it in a 18 cm disk . Add in some weights ( beans/ rice) .Bake at 180° until the egdes are golden then remove it and let it sit.",
+      "Add in your crème pâtissière over your tart base ,your thinly sliced apples then sprinkle some powdered sugar. Rebake until the apples are golden . Enjoy❤️",
+    ],
+    imageUrl:"applePie"
+  },
+
+  {
+    id: 6,
+    name: "Lazy Cake",
+    description: "A Sweet and Simple Delight.",
+    ingredients: [
+      "3 packs of digestive/ ghandour cookies , crushed",
+      "1 can of sweet condensed milk",
+      "150 grams dark chocolate",
+      "150 grams of room temperature butter",
+      "1/2 cup of cocoa powder",
+      "Parchment paper"
+
+    ],
+    instructions: [
+      "In a pot over medium heat, add in butter and chocolate bar",
+      "Mix until both are completely melted",
+      "Add in cocoa powder and the condensed milk",
+      "If the mixture was thick add 1-2 tablespoons of milk",
+      "Pour in the chocolate sauce over the crushed cookies and mix until cooperated",
+      "Cover the load pan with parchment paper",
+      "Pour in the lazy cake mixture",
+      "Cover and freeze the cake overnight. Enjoy!"
+
+
+    ],
+    imageUrl:"lazyCake"
+  },
+];
+export default recipes 

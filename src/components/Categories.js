@@ -13,35 +13,37 @@ const Categories = () => {
         <div className="app__categories-content">
           <div className="app__category">
             <Link to="/breakfast">
-
-            
-            <img
-              src={images.breakfast}
-              alt="Breakfast"
-              className="app__category-img"
-            />
-            <div className="app__category-overlay">
-            <Link to="/breakfast">
-              <p className="app__category-description">
-                {/* Delicious morning options */}
-                BREAKFAST
-              </p>
-              </Link>
-            </div>
+              <img
+                src={images.breakfast}
+                alt="Breakfast"
+                className="app__category-img"
+              />
+              <div className="app__category-overlay">
+                <Link to="/breakfast">
+                  <p className="app__category-description">
+                    {/* Delicious morning options */}
+                    BREAKFAST
+                  </p>
+                </Link>
+              </div>
             </Link>
           </div>
           <div className="app__category">
+          <Link to="/sweets">
             <img
               src={images.sweets}
               alt="Sweets"
               className="app__category-img"
             />
             <div className="app__category-overlay">
+            
               <p className="app__category-description">
                 {/* Indulge in our sweet treats */}
                 SWEETS
               </p>
+              
             </div>
+            </Link>
           </div>
           <div className="app__category">
             <img src={images.lunch} alt="Lunch" className="app__category-img" />
@@ -49,7 +51,7 @@ const Categories = () => {
               <p className="app__category-description">
                 {/* Satisfying midday meals */}
                 LUNCH
-                </p>
+              </p>
             </div>
           </div>
         </div>

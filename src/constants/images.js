@@ -8,11 +8,12 @@ import ig1 from "../assets/photo_ig_1.jfif";
 import ig2 from "../assets/photo_ig_2.jpg";
 import ig3 from "../assets/photo_ig_3.jpg";
 import ig4 from "../assets/photo_ig_4.jpg";
-import ig5 from "../assets/photo_ig_5.jpg";
+import ig5 from "../assets/date.jpg";
 import ig6 from "../assets/photo_ig_6.jpg";
 import ig7 from "../assets/photo_ig_7.jpg";
 import ig8 from "../assets/photo_ig_8.jpg";
 import ig9 from "../assets/photo_ig_9.jpg";
+import lotus from '../assets/food9.jfif'
 import chef from "../assets/chef.png";
 import quote from "../assets/quote.png";
 import brkfst1 from "../assets/food5.png";
@@ -20,6 +21,13 @@ import bkfst2 from "../assets/bkfst2.jpg";
 import beehive from '../assets/beehive.png';
 import frayek from '../assets/frayek.jpg';
 import croissant from '../assets/croissant.jpg'
+import moon from '../assets/moon.png'
+import coco from "../assets/food11.jfif"
+import date from '../assets/date.jpg'
+import fudge from '../assets/food23.jfif'
+import applePie from '../assets/applePie.jpg'
+import lazyCake from '../assets/lazyCake.jpg'
+
 export default {
   logo,
   spoon,
@@ -42,6 +50,13 @@ export default {
   bkfst2,
   beehive,
   frayek,
-  croissant
+  croissant,
+  moon,
+  lotus,
+  coco,
+  date,
+  fudge,
+  applePie,
+  lazyCake,
   
-};
+}
