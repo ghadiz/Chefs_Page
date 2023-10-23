@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/lunch/:id" element={<RecipePage />} />
       </Routes>
 
-      {/* <ImageSlider/> */}
+   
     </div>
   );
 };
