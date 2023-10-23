@@ -735,3 +735,30 @@
     }
   }
 }
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcca87; 
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bba465;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-black); 
+}
+
+
+* {
+  scrollbar-width: thin; 
+  scrollbar-color: #dcca87 var(--color-black); 
+}
+
+
