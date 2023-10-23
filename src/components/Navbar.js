@@ -3,6 +3,8 @@ import images from "../constants/images";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -13,19 +15,19 @@ function Navbar() {
       </div>
       <ul className="app__navbar-links">
         <li className="l__link">
-        <Link to="/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="l__link">
-          <a href="#home">About</a>
+          <HashLink to="/#about">About</HashLink>
         </li>
         <li className="l__link">
-          <a href="#home">Menu</a>
+          <HashLink to="/#menu">Menu</HashLink>
         </li>
         <li className="l__link">
-          <a href="#home">Awards</a>
+          <Link to="/awards">Awards</Link>
         </li>
         <li className="l__link">
-          <a href="#home">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
       {/* <div className="app__navbar-login">
@@ -34,32 +36,36 @@ function Navbar() {
         </a>
       </div> */}
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+        <GiHamburgerMenu
+          color="#fff"
+          fontSize={27}
+          onClick={() => setToggleMenu(true)}
+        />
         {toggleMenu && (
-        <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-          <MdOutlineRestaurantMenu
-            fontSize={27}
-            className="overlay__close"
-            onClick={() => setToggleMenu(false)}
-          />
-          <ul className="app__navbar-smallscreen_links">
-            <li className="l__link">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="l__link">
-              <a href="#home">About</a>
-            </li>
-            <li className="l__link">
-              <a href="#home">Menu</a>
-            </li>
-            <li className="l__link">
-              <a href="#home">Awards</a>
-            </li>
-            <li className="l__link">
-              <a href="#home">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+            <MdOutlineRestaurantMenu
+              fontSize={27}
+              className="overlay__close"
+              onClick={() => setToggleMenu(false)}
+            />
+            <ul className="app__navbar-smallscreen_links">
+              <li className="l__link">
+                <Link to="/">Home</Link>
+              </li>
+              <li className="l__link">
+              <HashLink to="/#about">About</HashLink>
+              </li>
+              <li className="l__link">
+              <HashLink to="/#menu">Menu</HashLink>
+              </li>
+              <li className="l__link">
+                <Link to="/awards">Awards</Link>
+              </li>
+              <li className="l__link">
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </div>
         )}
       </div>
     </nav>
