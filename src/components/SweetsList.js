@@ -3,10 +3,9 @@ import Subheading from "./Subheading";
 import images from "../constants/images";
 import {TiArrowBack} from  'react-icons/ti'
 import { Link } from "react-router-dom";
-import recipes from "../data/recipesData"; // Import the recipe data
+import recipes, { sweetsRecipes } from "../data/recipesData"; // Import both recipe lists
 
-
-const BreakfastList = () => {
+const SweetsList = () => {
   return (
     <div className="breakfast__page ">
       
@@ -15,23 +14,23 @@ const BreakfastList = () => {
         <div className="breakfast__page-heading_box ">
           <div className="app__wrapper_info">
             
-            <Subheading title="Breakfast Lists" />
-            <h1>My Breakfasts</h1>
+            <Subheading title="Sweet Lists" />
+            <h1>My Sweets</h1>
             <p className="p__opensans">
               This is the collection of my delicious breakfast recipes
             </p>
           </div>
           <div className="app__wrapper_img">
-            <img src={images.brkfst1} alt="breakfast" />
+            <img src={images.moon} alt="Sweet" />
           </div>
         </div>
       </div>
       <div className="breakfast-list app__bg">
-        <h2>Breakfast Recipes</h2>
+        <h2>Sweets Recipes</h2>
         <ul>
-          {recipes.map((item) =>(
+          {sweetsRecipes.map((item) =>(
             <li key={item.id}>
-              <Link to={`/breakfast/${item.id}`}>
+              <Link to={`/sweets/${item.id}`}>
                 <h3>{item.name}</h3>
                 <p>{item.description}</p>
               </Link>
@@ -44,4 +43,5 @@ const BreakfastList = () => {
   );
 };
 
-export default BreakfastList;
+export default SweetsList;
+
