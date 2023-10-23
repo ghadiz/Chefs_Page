@@ -140,7 +140,7 @@ const recipes = [
   },
 ];
 
-export const sweetsRecipes = [
+const sweetsRecipes = [
   {
     id: 1,
     name: "Lotus Chocolate Truffles",
@@ -290,4 +290,4 @@ export const sweetsRecipes = [
     imageUrl:"lazyCake"
   },
 ];
-export default recipes 
+export {recipes, sweetsRecipes };

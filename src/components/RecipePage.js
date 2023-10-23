@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import Subheading from "./Subheading";
 import { TiArrowBack } from "react-icons/ti";
-import recipes, { sweetsRecipes } from "../data/recipesData"; // Import both recipe lists
+import { sweetsRecipes, recipes } from "../data/recipesData"; // Import both recipe lists
 import images from "../constants/images";
 
 const RecipePage = () => {

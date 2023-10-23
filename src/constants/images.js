@@ -28,7 +28,7 @@ import fudge from '../assets/food23.jfif'
 import applePie from '../assets/applePie.jpg'
 import lazyCake from '../assets/lazyCake.jpg'
 
-export default {
+const images = {
   logo,
   spoon,
   corn,
@@ -58,5 +58,6 @@ export default {
   fudge,
   applePie,
   lazyCake,
-  
-}
+};
+
+export default images;

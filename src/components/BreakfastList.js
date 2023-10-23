@@ -3,7 +3,7 @@ import Subheading from "./Subheading";
 import images from "../constants/images";
 import {TiArrowBack} from  'react-icons/ti'
 import { Link } from "react-router-dom";
-import recipes from "../data/recipesData"; // Import the recipe data
+import {recipes} from "../data/recipesData"; // Import the recipe data
 
 
 const BreakfastList = () => {

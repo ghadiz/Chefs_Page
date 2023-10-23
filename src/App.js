@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Subheading from "./components/Subheading";
 import Header from "./components/Header";
 import "./App.css";
 import Categories from "./components/Categories";
