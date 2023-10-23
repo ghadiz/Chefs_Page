@@ -11,6 +11,7 @@ import BreakfastList from "./components/BreakfastList";
 import { Route, Routes } from "react-router-dom";
 import "./Style.scss";
 import RecipePage from "./components/RecipePage";
+import SweetsList from "./components/SweetsList";
 
 const App = () => {
   return (
@@ -25,6 +26,10 @@ const App = () => {
       <Gallery/></>} />
         <Route path="/breakfast" element={<BreakfastList />} />
         <Route path="/breakfast/:id" element={<RecipePage />} />
+        <Route path="/sweets" element={<SweetsList />} />
+        <Route path="/sweets/:id" element={<RecipePage />} />
+        <Route path="/lunch" element={<BreakfastList />} />
+        <Route path="/lunch/:id" element={<RecipePage />} />
       </Routes>
 
       {/* <ImageSlider/> */}
