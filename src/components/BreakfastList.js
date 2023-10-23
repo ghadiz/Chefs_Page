@@ -38,34 +38,6 @@ const BreakfastList = () => {
             </li>
           ))}
 
-
-          {/* <li>
-            <h3>Scrambled Eggs</h3>
-            <p>A classic breakfast favorite</p>
-          </li>
-          <li>
-            <h3>Pancakes</h3>
-            <p>Fluffy and delicious pancakes</p>
-          </li>
-          <li>
-            <h3>French Toast</h3>
-            <p>Golden and sweet French toast</p>
-          </li>
-          <li>
-            <h3>French Toast</h3>
-            <p>Golden and sweet French toast</p>
-          </li>
-          <li>
-            <h3>French Toast</h3>
-            <p>Golden and sweet French toast</p>
-          </li>
-          <li>
-            <h3>French Toast</h3>
-            <p>Golden and sweet French toast</p>
-          </li> */}
-          {/* Add more breakfast items here */}
-
-
         </ul>
       </div>
     </div>
