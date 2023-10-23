@@ -27,12 +27,12 @@ function Navbar() {
         <li className="l__link">
           <HashLink to="/#menu">Menu</HashLink>
         </li>
-        <li className="l__link">
+        {/* <li className="l__link">
           <Link to="/awards">Awards</Link>
         </li>
         <li className="l__link">
           <Link to="/contact">Contact</Link>
-        </li>
+        </li> */}
       </ul>
       {/* <div className="app__navbar-login">
         <a href="#login" className="l__link">
@@ -62,12 +62,12 @@ function Navbar() {
               <li className="l__link">
               <HashLink to="/#menu"  onClick={closeMenu}>Menu</HashLink>
               </li>
-              <li className="l__link">
+              {/* <li className="l__link">
                 <Link to="/awards"  onClick={closeMenu}>Awards</Link>
               </li>
               <li className="l__link">
                 <Link to="/contact"  onClick={closeMenu}>Contact</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         )}
