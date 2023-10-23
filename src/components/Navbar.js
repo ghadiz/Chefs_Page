@@ -8,6 +8,10 @@ import { HashLink } from "react-router-hash-link";
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+
+  const closeMenu = () => {
+    setToggleMenu(false);
+  };
   return (
     <nav className="app__navbar p__opensans">
       <div className="app__navbar-logo">
@@ -50,19 +54,19 @@ function Navbar() {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="l__link">
-                <Link to="/">Home</Link>
+                <Link to="/"  onClick={closeMenu}>Home</Link>
               </li>
               <li className="l__link">
-              <HashLink to="/#about">About</HashLink>
+              <HashLink to="/#about"  onClick={closeMenu}>About</HashLink>
               </li>
               <li className="l__link">
-              <HashLink to="/#menu">Menu</HashLink>
+              <HashLink to="/#menu"  onClick={closeMenu}>Menu</HashLink>
               </li>
               <li className="l__link">
-                <Link to="/awards">Awards</Link>
+                <Link to="/awards"  onClick={closeMenu}>Awards</Link>
               </li>
               <li className="l__link">
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact"  onClick={closeMenu}>Contact</Link>
               </li>
             </ul>
           </div>

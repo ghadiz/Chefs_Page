@@ -28,7 +28,9 @@ const RecipePage = () => {
       <div className="recipe__page-heading">
         <Link to={`/${category}`}><TiArrowBack  color="#dcca87" fontSize={27} /></Link>
         <div className="recipe__page-heading-box">
-          <Subheading title="Breakfast 🍴" />
+          
+          {category==="breakfast" && <Subheading title="Breakfast 🍴" />}
+          {category==="sweets" && <Subheading title="Sweets 🍰" />}
           <h1>{recipe.name}:</h1>
         </div>
       </div>
